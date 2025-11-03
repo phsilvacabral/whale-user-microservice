@@ -1,0 +1,41 @@
+# .NET / C# (User microservice)
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Tests
+TestResult*/
+TestResults/
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Publish outputs
+**/publish/
+
+# Local config / secrets
+appsettings.*.local.json
+secrets.json
+*.db
+*.sqlite
